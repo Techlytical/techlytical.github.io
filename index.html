@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
     <head>
+        <meta name="trustpilot-one-time-domain-verification-id" content="a7a180bb-6114-4640-ab24-5f14b90d78b3"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Techlytical</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/dbd71a01b0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section class="header">
             <nav>
                 <a href="index.html"><img src="resources/images/logoWhite.png"></a>
-                <div class="nav-links">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
@@ -18,7 +24,41 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
+            <div class="text-box">
+                <h1>We are Techlytical</h1>
+                <p>We offer applications that will make your job much easier</p>
+                <a href="" class="hero-btn">Learn more</a>
+            </div>
         </section>
+<!------------------------------- APPS ---->
+<section class="apps">
+    <h1>Apps we offer</h1>
+    <p>Here are the apps that we offer</p>
+    <div class="row">
+        <div class="app-col">
+            <a href="comingsoon.html"><h3>IdeaDev</h3></a>
+            <p>Coming Soon</p>
+        </div>
+    </div>
+</section>
+<section class="newsroom">
+    <h1>Newsroom</h1>
+</section>
+
+
+
+        
+<!-------------------------- JavaScript for toggle menu ------------------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
     </body>
 </html>
