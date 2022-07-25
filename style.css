@@ -376,3 +376,19 @@ div .trustpilot-widget{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.dropbtn{
+    margin: 1px solid #56BBF1;
+    color: #56BBF1;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
