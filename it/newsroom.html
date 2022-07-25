@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
         <!-- TrustBox script -->
@@ -7,8 +7,8 @@
         <!-- End TrustBox script -->
         <meta name="trustpilot-one-time-domain-verification-id" content="a7a180bb-6114-4640-ab24-5f14b90d78b3"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Techlytical</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Newsroom - Techlytical</title>
+        <link rel="stylesheet" href="/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -31,44 +31,64 @@
                     <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="apps.html">APPS</a></li>
+                        <li><a href="about.html">CHI SIAMO</a></li>
+                        <li><a href="apps.html">APP</a></li>
                         <li><a href="newsroom.html">NEWSROOM</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="contact.html">CONTATTACI</a></li>
                     </ul>
                 </div>
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </nav>
-            <h1>Our Apps</h1>
+            <h1>Newsroom & Blog</h1>
         </section>
-<!---- Apps Content ------>
-<section class="apps">
-    <h1>Apps we offer</h1>
-    <p>Here are the apps that we offer</p>
+<!--- ------------------------------- newsroom page content--------->
+<section class="newsroom-content">
     <div class="row">
-        <div class="app-col">
-            <a href="comingsoon.html"><h3>IdeaDev</h3></a>
-            <p>Coming Soon</p>
+        <div class="blog-left">
+            <img src="resources/images/IdeaDevComingSoon.png">
+            <h2>IdeaDev è in arrivo prossimamente</h2>
+            <p>IdeaDev è un software che semplifica il tuo lavoro.</p>
+            <br>
+            <p>IdeaDev lavora con le tue idee, scrivi qualcosa nella pagina Nuovo progetto, seleziona il linguaggio di programmazione e IdeaDev <br>farà il lavoro per te. Prenderà frammenti di codice dalle risorse e li personalizzerà come hai scritto.</p>
+        </div>
+        <div class="comment-box">
+            <h3>Lascia un commento</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="5" placeholder="Commento" required></textarea>
+                <button type="submit" class="hero-btn blue-btn">INVIA</button>
+            </form>
+        </div>
+        <div class="blog-right">
+            <h3>Q&A</h3>
+            <div>
+                <span>Quali sistemi operativi supporterà IdeaDev?</span>
+                <span>Supporterà Windows e macOS. Il supporto di Linux sarà<br> aggiunto non appena verrà rilasciata la versione 1.2 di IdeaDev</span>
+            </div>
+            <div>
+                <span>Quando uscirà IdeaDev?</span>
+                <span>Dipende, non sappiamo quanto tempo richiederà questo progetto</span>
+            </div>
         </div>
     </div>
 </section>
-
 <!-- Footer -->
 <section class="footer">
-    <h4>About Us</h4>
-    <p>We are a small company named Techlytical. We want to make your <br> work easier with our solutions.</p>
+    <h4>Chi siamo</h4>
+    <p>Siamo Techlytical, una piccola azienda che vuole semplificare il tuo<br>lavoro con le nostre soluzioni.</p>
     <div class="icons">
         <a href="https://www.facebook.com/techlytical.code/"><i class="fa-brands fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/techlytical.dev/"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://twitter.com/techlytical_dev"><i class="fa-brands fa-twitter"></i></a>
     </div>
-    <p>Made with <i class="fa-solid fa-heart"></i> by Techlytical</p>
+    <p>Fatto con <i class="fa-solid fa-heart"></i> da Techlytical</p>
     <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
+        <button class="dropbtn">Lingua</button>
         <div class="dropdown-content">
-          <a href="it/index.html"><img src="resources/images/flags/flagItalian.png">Italian</a>
+          <a href="/uk/index.html"><img src="resources/images/flags/flagUK.png">English (UK)</a>
           <!---<a href="/index.html"><img>Link 2</a>--->
-          <a href="uk/index.html"><img src="resources/images/flags/flagUK.png">English (UK)</a>
+          <a href="/index.html"><img src="resources/images/flags/flagUSA.png">English (US)</a>
         </div>
       </div>
 </section>
